@@ -53,6 +53,7 @@ export function handleNewPoll(optionOneText, optionTwoText) {
 
 export function handleAnswerPoll(option, pollId) {
     return (dispatch, getState) => {
+        dispatch(showLoading());
         let { authedUser } = getState()
         let answerInfo = { 
             authedUser: authedUser,
@@ -60,7 +61,8 @@ export function handleAnswerPoll(option, pollId) {
             answer: option 
         };
         savePollAnswer(answerInfo).then((res) => {
-            dispatch(answerPoll(answerInfo))
+            dispatch(answerPoll(answerInfo));
+            dispatch(hideLoading());
         }).catch((error) => {
             console.log(error);
         });
