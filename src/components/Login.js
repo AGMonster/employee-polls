@@ -18,7 +18,7 @@ const Login = ({dispatch}) => {
             <img src={mainLogo} className="App-logo" alt="logo" />
             { currentPath !== '/' && <p> Please login !!</p> }
             <label>Login as</label>
-            <select data-testid="user-select" ref={elementRef} className='user-select'>
+            <select data-testid="user-select" ref={elementRef} className="user-select">
                 <option className="user-option">sarahedo</option>
                 <option className="user-option">tylermcginnis</option>
                 <option className="user-option">johndoe</option>

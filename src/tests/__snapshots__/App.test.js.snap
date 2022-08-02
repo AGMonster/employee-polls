@@ -19,7 +19,7 @@ Object {
               <li
                 class="nav-item"
               >
-                  
+                 
                 <a
                   aria-current="page"
                   class="active"
@@ -30,7 +30,7 @@ Object {
                  
               </li>
               <li
-                class="nav-item "
+                class="nav-item"
               >
                  
                 <a
@@ -46,7 +46,6 @@ Object {
                  
                 <a
                   class=""
-                  data-testid="new-poll-link"
                   href="/add"
                 >
                    New
@@ -124,7 +123,7 @@ Object {
                     class="show-poll-btn"
                     data-testid="show-btn"
                   >
-                      show
+                     show 
                   </button>
                 </a>
               </div>
@@ -148,7 +147,7 @@ Object {
                     class="show-poll-btn"
                     data-testid="show-btn"
                   >
-                      show
+                     show 
                   </button>
                 </a>
               </div>
@@ -188,7 +187,7 @@ Object {
                     class="show-poll-btn"
                     data-testid="show-btn"
                   >
-                      show
+                     show 
                   </button>
                 </a>
               </div>
@@ -212,7 +211,7 @@ Object {
                     class="show-poll-btn"
                     data-testid="show-btn"
                   >
-                      show
+                     show 
                   </button>
                 </a>
               </div>
@@ -236,7 +235,7 @@ Object {
                     class="show-poll-btn"
                     data-testid="show-btn"
                   >
-                      show
+                     show 
                   </button>
                 </a>
               </div>
@@ -260,7 +259,7 @@ Object {
                     class="show-poll-btn"
                     data-testid="show-btn"
                   >
-                      show
+                     show 
                   </button>
                 </a>
               </div>
@@ -285,7 +284,7 @@ Object {
             <li
               class="nav-item"
             >
-                
+               
               <a
                 aria-current="page"
                 class="active"
@@ -296,7 +295,7 @@ Object {
                
             </li>
             <li
-              class="nav-item "
+              class="nav-item"
             >
                
               <a
@@ -312,7 +311,6 @@ Object {
                
               <a
                 class=""
-                data-testid="new-poll-link"
                 href="/add"
               >
                  New
@@ -390,7 +388,7 @@ Object {
                   class="show-poll-btn"
                   data-testid="show-btn"
                 >
-                    show
+                   show 
                 </button>
               </a>
             </div>
@@ -414,7 +412,7 @@ Object {
                   class="show-poll-btn"
                   data-testid="show-btn"
                 >
-                    show
+                   show 
                 </button>
               </a>
             </div>
@@ -454,7 +452,7 @@ Object {
                   class="show-poll-btn"
                   data-testid="show-btn"
                 >
-                    show
+                   show 
                 </button>
               </a>
             </div>
@@ -478,7 +476,7 @@ Object {
                   class="show-poll-btn"
                   data-testid="show-btn"
                 >
-                    show
+                   show 
                 </button>
               </a>
             </div>
@@ -502,7 +500,7 @@ Object {
                   class="show-poll-btn"
                   data-testid="show-btn"
                 >
-                    show
+                   show 
                 </button>
               </a>
             </div>
@@ -526,7 +524,7 @@ Object {
                   class="show-poll-btn"
                   data-testid="show-btn"
                 >
-                    show
+                   show 
                 </button>
               </a>
             </div>

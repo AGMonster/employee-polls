@@ -3,7 +3,7 @@ import { unsetAuthedUser } from '../actions/authedUser'
 import { Link } from 'react-router-dom'
 
 const Logout = ({ dispatch, authedUserInfo }) => {
-    const handleLogout = (e) => {
+    const handleLogout = () => {
         dispatch(unsetAuthedUser())
     }
 

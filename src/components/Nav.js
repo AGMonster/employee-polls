@@ -5,12 +5,12 @@ const Nav = () => {
     return (
         <nav>
             <ul className="nav-items">
-                <li className="nav-item">  <NavLink to='/'> Dashboard</NavLink> </li>
-                <li className="nav-item "> <NavLink to='/leaderboard'> Leaderboard </NavLink></li>
-                <li className="nav-item"> <NavLink data-testid="new-poll-link" to='/add'> New</NavLink> </li>
+                <li className="nav-item"> <NavLink to='/'> Dashboard</NavLink> </li>
+                <li className="nav-item"> <NavLink to='/leaderboard'> Leaderboard </NavLink></li>
+                <li className="nav-item"> <NavLink to='/add'> New</NavLink> </li>
                 <li className="nav-item user"> <Logout/> </li>
             </ul>
-            <hr className='divider'/>
+            <hr className="divider"/>
         </nav>
 
     )

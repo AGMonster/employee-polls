@@ -25,9 +25,9 @@ const NewPoll = ({ dispatch }) =>
     }
 
     return (
-        <div className='new-poll'>
+        <div className="new-poll">
             <h1> Would You Rather</h1>
-            <p className='sub-heading'>Create your own poll</p>
+            <p className="sub-heading">Create your own poll</p>
             <form className="poll-form" onSubmit={handleSubmit}>
             <label htmlFor ="option-one"> First Option</label>
             <input id ="option-one" data-testid="option-one" minLength={5} maxLength={300} value={optionOneText} onChange={(e) => handleChange(e, 0)}/>
