@@ -11,8 +11,8 @@ import {  handleSetAuthedUser } from '../actions/shared';
 
   test('App component matches snapshot', async() => {
     const store = createStore(reducer, applyMiddleware(thunk))
-    store.dispatch(handleSetAuthedUser('sarahedo'));
-    await new Promise((res) => setTimeout(() => res(), 2200)) 
+    await store.dispatch(handleSetAuthedUser('sarahedo'));
+    await new Promise((res) => setTimeout(() => res(), 2200));
 
     let component = render(
         <MemoryRouter>

@@ -11,8 +11,8 @@ import {  handleSetAuthedUser } from '../actions/shared';
 
   test('Poll Details page has all required information', async() => {
     const store = createStore(reducer, applyMiddleware(thunk))
-    store.dispatch(handleSetAuthedUser('sarahedo'));
-    await new Promise((res) => setTimeout(() => res(), 2200)) 
+    await store.dispatch(handleSetAuthedUser('sarahedo'));
+    await new Promise((res) => setTimeout(() => res(), 1000));
 
     render(
         <MemoryRouter>

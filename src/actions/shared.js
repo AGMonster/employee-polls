@@ -29,7 +29,7 @@ export function handleInitialData() {
             dispatch(recievePolls(polls))
             dispatch(recieveUsers(users))
         }).then(() => {
-            dispatch(hideLoading())
+            dispatch(hideLoading());
         }).catch((error) => {
             console.log(error);
         });

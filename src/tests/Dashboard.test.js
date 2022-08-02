@@ -11,8 +11,8 @@ import {  handleSetAuthedUser } from '../actions/shared';
 
   test('Dashboard has all required user information', async() => {
     const store = createStore(reducer, applyMiddleware(thunk))
-    store.dispatch(handleSetAuthedUser('sarahedo'));
-    await new Promise((res) => setTimeout(() => res(), 2200)) 
+    await store.dispatch(handleSetAuthedUser('sarahedo'));
+    await new Promise((res) => setTimeout(() => res(), 1200));
 
     render(
         <MemoryRouter>
