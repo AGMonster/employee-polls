@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import Nav from './Nav'
 import Dashboard from './Dashboard';
 import { connect } from 'react-redux'

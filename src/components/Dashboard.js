@@ -1,12 +1,16 @@
 import PollList from "./PollList";
 import { connect } from 'react-redux'
+import { useState } from "react";
 
 const Dashboard = ({newPolls, completedPolls, isLoading}) => {
+
+    const [completed, setCompleted] = useState(false);
     return(
         !isLoading &&
         <div> 
-            <PollList completed={false} polls={newPolls}/>
-            <PollList completed={true} polls={completedPolls}/>            
+            <button className="toggle-view-btn" onClick={ () => setCompleted(!completed) }> Toggle Active View </button>
+            {!completed && <PollList completed={completed} polls={newPolls}/>}
+            {completed &&  <PollList completed={completed} polls={completedPolls}/>  }
         </div>
     )
 }

@@ -89,6 +89,11 @@ Object {
           </nav>
         </header>
         <div>
+          <button
+            class="toggle-view-btn"
+          >
+             Toggle Active View 
+          </button>
           <div
             class="poll-list"
           >
@@ -142,118 +147,6 @@ Object {
                 </span>
                 <a
                   href="/questions/vthrdm985a262al8qx3do"
-                >
-                  <button
-                    class="show-poll-btn"
-                    data-testid="show-btn"
-                  >
-                     show 
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="poll-list"
-          >
-            <p>
-              <strong>
-                Done
-              </strong>
-            </p>
-            <hr
-              class="poll-divider"
-            />
-            <div
-              class="poll-cards"
-            >
-              <div
-                class="poll-card"
-              >
-                <span>
-                   
-                  sarahedo
-                </span>
-                <span
-                  class="timestamp"
-                >
-                   
-                  3:52:AM | 4/3/2017
-                </span>
-                <a
-                  href="/questions/am8ehyc8byjqgar0jgpub9"
-                >
-                  <button
-                    class="show-poll-btn"
-                    data-testid="show-btn"
-                  >
-                     show 
-                  </button>
-                </a>
-              </div>
-              <div
-                class="poll-card"
-              >
-                <span>
-                   
-                  tylermcginnis
-                </span>
-                <span
-                  class="timestamp"
-                >
-                   
-                  5:12:PM | 24/12/2016
-                </span>
-                <a
-                  href="/questions/loxhs1bqm25b708cmbf3g"
-                >
-                  <button
-                    class="show-poll-btn"
-                    data-testid="show-btn"
-                  >
-                     show 
-                  </button>
-                </a>
-              </div>
-              <div
-                class="poll-card"
-              >
-                <span>
-                   
-                  johndoe
-                </span>
-                <span
-                  class="timestamp"
-                >
-                   
-                  12:32PM | 14/7/2016
-                </span>
-                <a
-                  href="/questions/6ni6ok3ym7mf1p33lnez"
-                >
-                  <button
-                    class="show-poll-btn"
-                    data-testid="show-btn"
-                  >
-                     show 
-                  </button>
-                </a>
-              </div>
-              <div
-                class="poll-card"
-              >
-                <span>
-                   
-                  sarahedo
-                </span>
-                <span
-                  class="timestamp"
-                >
-                   
-                  7:51:AM | 29/6/2016
-                </span>
-                <a
-                  href="/questions/8xf0y6ziyjabvozdd253nd"
                 >
                   <button
                     class="show-poll-btn"
@@ -354,6 +247,11 @@ Object {
         </nav>
       </header>
       <div>
+        <button
+          class="toggle-view-btn"
+        >
+           Toggle Active View 
+        </button>
         <div
           class="poll-list"
         >
@@ -407,118 +305,6 @@ Object {
               </span>
               <a
                 href="/questions/vthrdm985a262al8qx3do"
-              >
-                <button
-                  class="show-poll-btn"
-                  data-testid="show-btn"
-                >
-                   show 
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="poll-list"
-        >
-          <p>
-            <strong>
-              Done
-            </strong>
-          </p>
-          <hr
-            class="poll-divider"
-          />
-          <div
-            class="poll-cards"
-          >
-            <div
-              class="poll-card"
-            >
-              <span>
-                 
-                sarahedo
-              </span>
-              <span
-                class="timestamp"
-              >
-                 
-                3:52:AM | 4/3/2017
-              </span>
-              <a
-                href="/questions/am8ehyc8byjqgar0jgpub9"
-              >
-                <button
-                  class="show-poll-btn"
-                  data-testid="show-btn"
-                >
-                   show 
-                </button>
-              </a>
-            </div>
-            <div
-              class="poll-card"
-            >
-              <span>
-                 
-                tylermcginnis
-              </span>
-              <span
-                class="timestamp"
-              >
-                 
-                5:12:PM | 24/12/2016
-              </span>
-              <a
-                href="/questions/loxhs1bqm25b708cmbf3g"
-              >
-                <button
-                  class="show-poll-btn"
-                  data-testid="show-btn"
-                >
-                   show 
-                </button>
-              </a>
-            </div>
-            <div
-              class="poll-card"
-            >
-              <span>
-                 
-                johndoe
-              </span>
-              <span
-                class="timestamp"
-              >
-                 
-                12:32PM | 14/7/2016
-              </span>
-              <a
-                href="/questions/6ni6ok3ym7mf1p33lnez"
-              >
-                <button
-                  class="show-poll-btn"
-                  data-testid="show-btn"
-                >
-                   show 
-                </button>
-              </a>
-            </div>
-            <div
-              class="poll-card"
-            >
-              <span>
-                 
-                sarahedo
-              </span>
-              <span
-                class="timestamp"
-              >
-                 
-                7:51:AM | 29/6/2016
-              </span>
-              <a
-                href="/questions/8xf0y6ziyjabvozdd253nd"
               >
                 <button
                   class="show-poll-btn"

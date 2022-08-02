@@ -23,9 +23,9 @@ import {  handleSetAuthedUser } from '../actions/shared';
 
     let showPollBtn = await screen.findAllByText('show')
     let newQuestions = await screen.findByText('New Questions')
-    let doneSectionheader = await screen.findByText('Done')
+    let toggleViewBtn = await screen.findByText('Toggle Active View')
 
-    expect(doneSectionheader).toBeInTheDocument()
+    expect(toggleViewBtn).toBeInTheDocument()
     expect(newQuestions).toBeInTheDocument()
     expect(showPollBtn.length).toBeGreaterThan(0)
     expect(showPollBtn[0]).toBeInTheDocument()

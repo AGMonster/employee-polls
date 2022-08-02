@@ -188,3 +188,11 @@ td, th {
   border-radius: 8px;
   cursor: pointer;
 }
+.toggle-view-btn {
+  height: 50px;
+  cursor: pointer;
+  width: 160px;
+  color: white;
+  border-radius: 8px;
+  background-color: teal;
+}
