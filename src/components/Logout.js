@@ -10,7 +10,7 @@ const Logout = ({ dispatch, authedUserInfo }) => {
     return (
         !!authedUserInfo && <div className="logout">
             <div className='loggedin-user'>
-                <img src={authedUserInfo.avatarURL} className="avatar"/>
+                <img src={authedUserInfo.avatarURL} alt="avatar of the user" className="avatar"/>
                 <span className="user"> {authedUserInfo.id}</span>
             </div>
             <Link to='/' onClick={handleLogout}>Logout</Link>

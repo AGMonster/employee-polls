@@ -25,8 +25,8 @@ const LeaderBoard = ({users}) =>{
                                     </div>
                                     
                                 </td>
-                                <td>{user.questions.length}</td>
-                                <td >{Object.keys(user.answers).length}</td>
+                                <td> {Object.keys(user.answers).length} </td>
+                                <td > { user.questions.length }</td>
                             </tr>
                         )
                     })

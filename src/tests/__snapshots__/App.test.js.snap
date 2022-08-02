@@ -64,6 +64,7 @@ Object {
                     class="loggedin-user"
                   >
                     <img
+                      alt="avatar of the user"
                       class="avatar"
                       src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
                     />
@@ -329,6 +330,7 @@ Object {
                   class="loggedin-user"
                 >
                   <img
+                    alt="avatar of the user"
                     class="avatar"
                     src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
                   />

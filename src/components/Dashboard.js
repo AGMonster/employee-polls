@@ -1,9 +1,8 @@
 import PollList from "./PollList";
 import { connect } from 'react-redux'
 
-const Dashboard = ({newPolls, completedPolls, isLoading}) => {
+const Dashboard = ({newPolls, completedPolls}) => {
     return(
-        !isLoading &&
         <div> 
             <PollList completed={false} polls={newPolls}/>
             <PollList completed={true} polls={completedPolls}/>            
@@ -18,7 +17,6 @@ const mapStateToProps = ({ polls, authedUser, users, loadingBar }) => {
         return {
             newPolls : newPolls.sort((a, b) => polls[b].timestamp - polls[a].timestamp),
             completedPolls: completedPolls.sort((a, b) => polls[b].timestamp - polls[a].timestamp),
-            isLoading: loadingBar.default == 1
         }
     }
     return {}
