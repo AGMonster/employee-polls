@@ -18,8 +18,8 @@ Start application: npm run start
     Button Link on the Question/Poll Card
         Show
 4. The above Links can also navigated directly using browser url
-    Dashboard - "/"
-    Leaderboard - "/leaderboard"
-    New - "/add"
-    Show - "/questions/:questionId"
+    ###Dashboard - "/"
+    ###Leaderboard - "/leaderboard"
+    ###New - "/add"
+    ###Show - "/questions/:questionId"
 5. To Logout use Logout link in the right section of navbar
