@@ -1,0 +1,588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div />
+      <div
+        class="App"
+      >
+        <header
+          class="header"
+        >
+          <nav>
+            <ul
+              class="nav-items"
+            >
+              <li
+                class="nav-item"
+              >
+                  
+                <a
+                  aria-current="page"
+                  class="active"
+                  href="/"
+                >
+                   Dashboard
+                </a>
+                 
+              </li>
+              <li
+                class="nav-item "
+              >
+                 
+                <a
+                  class=""
+                  href="/leaderboard"
+                >
+                   Leaderboard 
+                </a>
+              </li>
+              <li
+                class="nav-item"
+              >
+                 
+                <a
+                  class=""
+                  data-testid="new-poll-link"
+                  href="/add"
+                >
+                   New
+                </a>
+                 
+              </li>
+              <li
+                class="nav-item user"
+              >
+                 
+                <div
+                  class="logout"
+                >
+                  <div
+                    class="loggedin-user"
+                  >
+                    <img
+                      class="avatar"
+                      src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                    />
+                    <span
+                      class="user"
+                    >
+                       
+                      sarahedo
+                    </span>
+                  </div>
+                  <a
+                    href="/"
+                  >
+                    Logout
+                  </a>
+                </div>
+                 
+              </li>
+            </ul>
+            <hr
+              class="divider"
+            />
+          </nav>
+        </header>
+        <div>
+          <div
+            class="poll-list"
+          >
+            <p>
+              <strong>
+                New Questions
+              </strong>
+            </p>
+            <hr
+              class="poll-divider"
+            />
+            <div
+              class="poll-cards"
+            >
+              <div
+                class="poll-card"
+              >
+                <span>
+                   
+                  johndoe
+                </span>
+                <span
+                  class="timestamp"
+                >
+                   
+                  12:46AM | 1/5/2017
+                </span>
+                <a
+                  href="/questions/xj352vofupe1dqz9emx13r"
+                >
+                  <button
+                    class="show-poll-btn"
+                    data-testid="show-btn"
+                  >
+                      show
+                  </button>
+                </a>
+              </div>
+              <div
+                class="poll-card"
+              >
+                <span>
+                   
+                  tylermcginnis
+                </span>
+                <span
+                  class="timestamp"
+                >
+                   
+                  5:39:PM | 15/3/2017
+                </span>
+                <a
+                  href="/questions/vthrdm985a262al8qx3do"
+                >
+                  <button
+                    class="show-poll-btn"
+                    data-testid="show-btn"
+                  >
+                      show
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="poll-list"
+          >
+            <p>
+              <strong>
+                Done
+              </strong>
+            </p>
+            <hr
+              class="poll-divider"
+            />
+            <div
+              class="poll-cards"
+            >
+              <div
+                class="poll-card"
+              >
+                <span>
+                   
+                  sarahedo
+                </span>
+                <span
+                  class="timestamp"
+                >
+                   
+                  3:52:AM | 4/3/2017
+                </span>
+                <a
+                  href="/questions/am8ehyc8byjqgar0jgpub9"
+                >
+                  <button
+                    class="show-poll-btn"
+                    data-testid="show-btn"
+                  >
+                      show
+                  </button>
+                </a>
+              </div>
+              <div
+                class="poll-card"
+              >
+                <span>
+                   
+                  tylermcginnis
+                </span>
+                <span
+                  class="timestamp"
+                >
+                   
+                  5:12:PM | 24/12/2016
+                </span>
+                <a
+                  href="/questions/loxhs1bqm25b708cmbf3g"
+                >
+                  <button
+                    class="show-poll-btn"
+                    data-testid="show-btn"
+                  >
+                      show
+                  </button>
+                </a>
+              </div>
+              <div
+                class="poll-card"
+              >
+                <span>
+                   
+                  johndoe
+                </span>
+                <span
+                  class="timestamp"
+                >
+                   
+                  12:32PM | 14/7/2016
+                </span>
+                <a
+                  href="/questions/6ni6ok3ym7mf1p33lnez"
+                >
+                  <button
+                    class="show-poll-btn"
+                    data-testid="show-btn"
+                  >
+                      show
+                  </button>
+                </a>
+              </div>
+              <div
+                class="poll-card"
+              >
+                <span>
+                   
+                  sarahedo
+                </span>
+                <span
+                  class="timestamp"
+                >
+                   
+                  7:51:AM | 29/6/2016
+                </span>
+                <a
+                  href="/questions/8xf0y6ziyjabvozdd253nd"
+                >
+                  <button
+                    class="show-poll-btn"
+                    data-testid="show-btn"
+                  >
+                      show
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div />
+    <div
+      class="App"
+    >
+      <header
+        class="header"
+      >
+        <nav>
+          <ul
+            class="nav-items"
+          >
+            <li
+              class="nav-item"
+            >
+                
+              <a
+                aria-current="page"
+                class="active"
+                href="/"
+              >
+                 Dashboard
+              </a>
+               
+            </li>
+            <li
+              class="nav-item "
+            >
+               
+              <a
+                class=""
+                href="/leaderboard"
+              >
+                 Leaderboard 
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+               
+              <a
+                class=""
+                data-testid="new-poll-link"
+                href="/add"
+              >
+                 New
+              </a>
+               
+            </li>
+            <li
+              class="nav-item user"
+            >
+               
+              <div
+                class="logout"
+              >
+                <div
+                  class="loggedin-user"
+                >
+                  <img
+                    class="avatar"
+                    src="https://tylermcginnis.com/would-you-rather/sarah.jpg"
+                  />
+                  <span
+                    class="user"
+                  >
+                     
+                    sarahedo
+                  </span>
+                </div>
+                <a
+                  href="/"
+                >
+                  Logout
+                </a>
+              </div>
+               
+            </li>
+          </ul>
+          <hr
+            class="divider"
+          />
+        </nav>
+      </header>
+      <div>
+        <div
+          class="poll-list"
+        >
+          <p>
+            <strong>
+              New Questions
+            </strong>
+          </p>
+          <hr
+            class="poll-divider"
+          />
+          <div
+            class="poll-cards"
+          >
+            <div
+              class="poll-card"
+            >
+              <span>
+                 
+                johndoe
+              </span>
+              <span
+                class="timestamp"
+              >
+                 
+                12:46AM | 1/5/2017
+              </span>
+              <a
+                href="/questions/xj352vofupe1dqz9emx13r"
+              >
+                <button
+                  class="show-poll-btn"
+                  data-testid="show-btn"
+                >
+                    show
+                </button>
+              </a>
+            </div>
+            <div
+              class="poll-card"
+            >
+              <span>
+                 
+                tylermcginnis
+              </span>
+              <span
+                class="timestamp"
+              >
+                 
+                5:39:PM | 15/3/2017
+              </span>
+              <a
+                href="/questions/vthrdm985a262al8qx3do"
+              >
+                <button
+                  class="show-poll-btn"
+                  data-testid="show-btn"
+                >
+                    show
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="poll-list"
+        >
+          <p>
+            <strong>
+              Done
+            </strong>
+          </p>
+          <hr
+            class="poll-divider"
+          />
+          <div
+            class="poll-cards"
+          >
+            <div
+              class="poll-card"
+            >
+              <span>
+                 
+                sarahedo
+              </span>
+              <span
+                class="timestamp"
+              >
+                 
+                3:52:AM | 4/3/2017
+              </span>
+              <a
+                href="/questions/am8ehyc8byjqgar0jgpub9"
+              >
+                <button
+                  class="show-poll-btn"
+                  data-testid="show-btn"
+                >
+                    show
+                </button>
+              </a>
+            </div>
+            <div
+              class="poll-card"
+            >
+              <span>
+                 
+                tylermcginnis
+              </span>
+              <span
+                class="timestamp"
+              >
+                 
+                5:12:PM | 24/12/2016
+              </span>
+              <a
+                href="/questions/loxhs1bqm25b708cmbf3g"
+              >
+                <button
+                  class="show-poll-btn"
+                  data-testid="show-btn"
+                >
+                    show
+                </button>
+              </a>
+            </div>
+            <div
+              class="poll-card"
+            >
+              <span>
+                 
+                johndoe
+              </span>
+              <span
+                class="timestamp"
+              >
+                 
+                12:32PM | 14/7/2016
+              </span>
+              <a
+                href="/questions/6ni6ok3ym7mf1p33lnez"
+              >
+                <button
+                  class="show-poll-btn"
+                  data-testid="show-btn"
+                >
+                    show
+                </button>
+              </a>
+            </div>
+            <div
+              class="poll-card"
+            >
+              <span>
+                 
+                sarahedo
+              </span>
+              <span
+                class="timestamp"
+              >
+                 
+                7:51:AM | 29/6/2016
+              </span>
+              <a
+                href="/questions/8xf0y6ziyjabvozdd253nd"
+              >
+                <button
+                  class="show-poll-btn"
+                  data-testid="show-btn"
+                >
+                    show
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
