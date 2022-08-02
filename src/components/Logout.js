@@ -1,14 +1,10 @@
 import { connect } from 'react-redux'
 import { unsetAuthedUser } from '../actions/authedUser'
-import { useNavigate, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const Logout = ({ dispatch, authedUserInfo }) => 
-{
-    const naviagate = useNavigate();
+const Logout = ({ dispatch, authedUserInfo }) => {
     const handleLogout = (e) => {
-        e.preventDefault();
         dispatch(unsetAuthedUser())
-        // naviagate('/')
     }
 
     return (
